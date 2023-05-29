@@ -1,0 +1,69 @@
+/*------------CABEÇALHO-----------*/
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+/*------------CORES-----------*/
+.fonteSecundaria{
+    background-color: #07141A;
+    color: aliceblue;
+}
+.fontePrimaria{
+    background-color: #0B1F26;
+    color: aliceblue;    
+}
+.fonteTextoTitulo{
+    text-transform: uppercase;
+    color: #FED903;
+    font-size: 40px;
+}
+.fonteIndex{
+    text-transform: uppercase;
+    color:aliceblue;
+    font-size: 90px;
+}
+.fonteLegenda{
+    color:aliceblue;
+    font-size: 25px;
+}
+.fonteLegendaAmarela{
+    color:#FED903;
+    font-size: 20px;
+}
+
+/*------------ALINHAMENTO-----------*/
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*------------BORDAS-----------*/
+.bordaEsquerda{
+border-left: 1px solid;
+border-color: #07141A;
+}
+.bordaDireita{
+    border-right: 1px solid;
+    border-color: #07141A;
+}
+/*-----------------------*/
+.tamanhoImagem{
+    height: 400px;
+    width: auto;
+}
+.tamanhoImagemRodape{
+    height: 50px;
+    width: auto;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
