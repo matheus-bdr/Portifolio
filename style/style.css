@@ -3,6 +3,9 @@ header a{
     text-decoration: none;
     color: aliceblue;
 }
+header img{
+    height: 30px;
+}
 html,body{
     margin: 0px;
     padding: 0px;
@@ -11,29 +14,29 @@ html,body{
 
 /*------------CORES-----------*/
 .fonteSecundaria{
-    background-color: #07141A;
-    color: aliceblue;
+    background-color: #404040 ;
+    color: black;
 }
 .fontePrimaria{
-    background-color: #0B1F26;
-    color: aliceblue;    
+    background-color: #FFFFFF;
+    color: black;    
 }
 .fonteTextoTitulo{
     text-transform: uppercase;
-    color: #FED903;
+    color: #1C188C;
     font-size: 40px;
 }
 .fonteIndex{
     text-transform: uppercase;
-    color:aliceblue;
+    color:black;
     font-size: 90px;
 }
 .fonteLegenda{
-    color:aliceblue;
+    color:black;
     font-size: 25px;
 }
 .fonteLegendaAmarela{
-    color:#FED903;
+    color:#404040;
     font-size: 20px;
 }
 
