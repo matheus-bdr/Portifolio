@@ -28,7 +28,7 @@ html,body{
     color: #1C188C;
     font-size: 40px;
 }
-.fonteTitulo{
+.fonteIndex{
     text-transform: uppercase;
     color:black;
     font-size: 90px;
@@ -50,6 +50,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 /*------------BORDAS-----------*/
 .bordaEsquerda{
@@ -64,9 +65,12 @@ border-color: #07141A;
 .tamanhoImagem{
     height: 400px;
     width: auto;
+    align-items: end;
+    border-radius: 200% ;
+    
 }
 .tamanhoImagemRodape{
-    height: 50px;
+    height: 70px;
     width: auto;
 }
 footer{
