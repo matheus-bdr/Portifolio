@@ -20,7 +20,7 @@ html,body{
     color: black;
 }
 .fontePrimaria{
-    background-color: #FFFFFF;
+    background-color: #FCFCFF;
     color: black;    
 }
 .fonteTextoTitulo{
@@ -52,10 +52,29 @@ html,body{
     align-items: center;
 
 }
+.imagemBloco{
+    display: flex;
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 5%;
+    justify-content: space-around;
+}
+.bloco{
+    display: flex;
+    justify-content:space-around;
+    border: 1px solid #404040;
+    border-radius: 5%;
+    background-color: #BFBDF2;
+    max-width: 300px;
+    max-height: 400px;
+}
 /*------------BORDAS-----------*/
 .bordaEsquerda{
 border-left: 1px solid;
 border-color: #07141A;
+justify-content: space-between;
+align-items: center;
+margin: 10px;
 }
 .bordaDireita{
     border-right: 1px solid;
@@ -66,7 +85,7 @@ border-color: #07141A;
     height: 400px;
     width: auto;
     align-items: end;
-    border-radius: 200% ;
+    border-radius: 40% ;
     
 }
 .tamanhoImagemRodape{
